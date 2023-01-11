@@ -10,7 +10,8 @@
     flex-direction: row;
     width: 457px;
     height: 138px; 
-    margin: 4px;
+    margin: 2px;
+    padding:10px;
 }
 .card-detail{
     margin: 14px;
