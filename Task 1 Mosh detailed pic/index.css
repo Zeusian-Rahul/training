@@ -1,0 +1,63 @@
+.main{
+    width: 97vw;
+    height: 97vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 457px;
+    height: 138px; 
+    margin: 4px;
+}
+.card-detail{
+    margin: 14px;
+}
+
+.username{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 14px;
+}
+
+.tweet-detail{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: regular;
+    margin-bottom:24px;
+    color: #000000;
+}
+
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 14px;
+}
+.counts{
+    margin: 0px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+
+.number{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: medium;
+    color: #858991;
+    display: flex;
+    flex-direction: row;
+    margin-right: 24px;
+
+}
+
+#pic{
+  width: 130px;
+  height: 130px;
+}
