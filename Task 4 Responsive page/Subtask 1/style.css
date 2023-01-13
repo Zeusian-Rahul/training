@@ -8,17 +8,16 @@ body {
 .header {
   display: flex;
   width: 100%;
-  /* border: 2px solid green; */
+  background-blend-mode: overlay;
+  background-color: #25313f;
   position: fixed;
   top: 0;
   background-image: url("../header pattern svg.svg");
   padding: 0.4% 2%;
-  border-bottom: 4px solid rgb(111, 184, 232);
+  border-bottom: 4px solid rgb(118, 189, 236);
 }
 
 .card {
-  /* border: 3px solid blue; */
-  display: flex;
   border-top: 4px solid rgb(118, 189, 236);
   justify-content: center;
   margin: 10% auto 0% auto;
@@ -33,17 +32,13 @@ body {
   display: flex;
   justify-content: space-between;
   width: 400px;
-  /* border: 2px solid magenta; */
 }
-
-.subheading > h2 {
+.subheading h2 {
   padding-left: 3%;
-  /* border: 2px solid rgb(0, 0, 0); */
   width: 90%;
 }
 
 .rb {
-  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
   padding-left: 0%;
@@ -51,7 +46,6 @@ body {
 }
 
 .district {
-  /* border: 2px solid black; */
   display: flex;
   align-items: center;
   margin-right: 10%;
@@ -62,7 +56,6 @@ body {
 }
 
 .school {
-  /* border: 2px solid black; */
   display: flex;
   align-items: center;
   margin-right: 10%;
@@ -73,15 +66,6 @@ body {
   background-repeat: no-repeat;
 }
 
-/* input[type="checkbox"] {
-    content: url('images/icons/radio-button-on.svg');
-    display: flex;
-    width: 100px;
-    height: 100px;
-}
-input[type="checkbox"]:checked {
-    content: url('images/icons/radio-button-off.svg');
-} */
 .select {
   display: flex;
   flex-direction: column;
@@ -89,8 +73,7 @@ input[type="checkbox"]:checked {
   height: 90px;
   text-align: left;
 }
-
-.select > p {
+.select p {
   color: rgb(122, 140, 140);
   margin: 0% 0%;
 }
@@ -131,9 +114,7 @@ select, a {
   background-image: url("../icons/checkbox-checked.svg");
   background-repeat: no-repeat;
 }
-
-.end > p {
-  /* border: 2px solid green; */
+.end p {
   margin-top: 0;
 }
 
@@ -176,7 +157,5 @@ span {
   display: flex;
   justify-content: center;
   background-color: rgb(184, 180, 180);
-  position: fixed;
-  bottom: 0;
   width: 100%;
-}/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=style.css.map */

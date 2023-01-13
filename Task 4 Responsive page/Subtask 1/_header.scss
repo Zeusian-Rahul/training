@@ -1,0 +1,18 @@
+@mixin flex(){
+    display: flex;
+
+}
+
+
+.header{
+    @include flex();
+    width: 100%;
+  background-blend-mode: overlay;
+  background-color: #25313f;
+  position: fixed;
+  top:0;
+  background-image: url("../header\ pattern\ svg.svg");
+  padding: 0.4% 2%;  
+  border-bottom:$onesideborder;
+
+}
