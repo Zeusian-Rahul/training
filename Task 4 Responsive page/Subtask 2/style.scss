@@ -1,0 +1,17 @@
+@mixin center(){
+    display: flex;
+    align-items: center;
+}
+
+body{
+    background-color: #e4dfdf;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    margin: 0;
+}
+
+@import './header';
+@import './option';
+@import './content';
+@import './mediaquery';
+@import './footer';

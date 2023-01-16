@@ -1,1 +1,265 @@
-/*# sourceMappingURL=style.css.map */
+body {
+  background-color: #e4dfdf;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+}
+
+.header {
+  min-width: 100%;
+  height: 56px;
+  background-blend-mode: overlay;
+  background-color: #25313f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("../header pattern svg.svg");
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+#h1 {
+  margin: 17px 25px;
+}
+
+.topnav {
+  display: flex;
+  align-items: center;
+  right: 0;
+  justify-content: space-around;
+  height: 100%;
+  margin: 0;
+  width: 800px;
+  text-transform: uppercase;
+}
+
+.nav-item a {
+  color: #3fd28b;
+}
+
+.active {
+  border-bottom: 5px solid white;
+  padding-bottom: 2%;
+  margin-top: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: white;
+}
+.active a, .active img {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.cc {
+  display: flex;
+  align-items: center;
+  width: 95vw;
+  font-size: 16px;
+}
+
+.text {
+  color: #686868;
+  font-size: 12px;
+}
+
+.area {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.choose {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  font-family: "Quicksand", sans-serif;
+  font-size: larger;
+  background: #8DDC97 0% 0% no-repeat padding-box;
+  border: none;
+}
+.choose p {
+  font-family: "Quicksand", sans-serif;
+  font-size: larger;
+  padding: 7px;
+}
+.choose:focus {
+  border-bottom: 4px solid black;
+}
+
+.bcc {
+  display: flex;
+  align-items: center;
+  border-bottom: 3px solid rgb(200, 198, 198);
+  padding-bottom: 1%;
+  width: 95vw;
+  justify-content: space-between;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.select {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: auto;
+  background-image: url("../icons/sort.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  border: none;
+  padding-right: 2%;
+  margin-top: 1%;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  width: auto;
+  font-size: 20px;
+}
+
+.sorting {
+  display: block;
+  border-width: 0 0 2px 0;
+  text-align: left;
+  font-size: 16px;
+  color: #222222;
+  background-color: rgba(212, 212, 220, 0.506);
+}
+
+select {
+  all: unset;
+  width: 150px;
+  background-color: #e4dfdf;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid black;
+}
+
+.container {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4%;
+}
+
+.item1 {
+  background-color: #FFFFFF;
+  border-radius: 2px;
+  width: 476px;
+  padding: 2% 0 0 2%;
+}
+
+.content {
+  display: flex;
+  padding: 2% 0 0 2%;
+}
+.content img {
+  width: 132px;
+  height: 157px;
+  max-width: 132px;
+}
+
+.info {
+  margin-left: 16px;
+  text-align: left;
+}
+
+.info h3 {
+  margin-top: 0;
+  margin-bottom: 7px;
+  font-size: 16px;
+  color: #222222;
+}
+
+.info p {
+  color: #666666;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 7px;
+}
+
+.info select {
+  all: unset;
+  width: 210px;
+  height: 27px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #222222;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 8px;
+  margin-top: 5px;
+  background: url("../icons/arrow-down.svg") no-repeat right;
+  padding-right: 54px;
+}
+
+.favourite img {
+  width: 20px;
+  height: 24px;
+}
+
+.cardbtns {
+  margin: 16px 20px 9px 20px;
+  padding: 16px 24px 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px solid #e4e0e0;
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4%;
+  }
+  .footer > p {
+    margin-top: 20%;
+    color: rgb(1, 106, 62);
+    font-size: 14px;
+  }
+  .nav-item {
+    display: none;
+  }
+  .toggle {
+    display: unset;
+  }
+  .topnav {
+    display: flex;
+    width: 300px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .toggle {
+    display: none;
+  }
+}
+.footer > p {
+  margin-top: 2%;
+  color: rgb(1, 106, 62);
+  font-size: 14px;
+}
+
+span {
+  color: rgb(114, 113, 113);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.lower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(184, 180, 180);
+  min-width: 100vw;
+}/*# sourceMappingURL=style.css.map */

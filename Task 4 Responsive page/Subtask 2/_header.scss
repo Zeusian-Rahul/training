@@ -1,0 +1,49 @@
+.header{
+    min-width: 100%;
+    height: 56px;
+    background-blend-mode:overlay;
+    background-color: #25313f;
+    @include center();
+    justify-content: space-between;
+    background-image: url("../header\ pattern\ svg.svg");
+    position: sticky;
+    top: 0;
+}
+
+#h1{   
+    margin: 17px 25px;
+}
+
+.topnav{
+    @include center();
+    right: 0;
+    justify-content: space-around;
+    height: 100%;
+    margin: 0;
+    width: 800px;
+    text-transform: uppercase;
+    
+}
+.nav-item a{
+    color: #3fd28b;
+}
+.active {
+    border-bottom: 5px solid white;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: white;
+    a,img {
+        color: white;
+    }
+}
+ 
+ul{
+    list-style-type:none;
+}
+a{
+    text-decoration: none;
+}
+
+

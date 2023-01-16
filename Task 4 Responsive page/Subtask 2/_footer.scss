@@ -1,0 +1,18 @@
+.footer > p{
+    margin-top: 2%;
+    color: rgb(1, 106, 62);
+    font-size: 14px;
+}
+span{
+    color: rgb(114, 113, 113);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lower{
+    @include center();
+    justify-content: center;
+    background-color: rgb(184, 180, 180);
+    min-width: 100vw;
+}
+

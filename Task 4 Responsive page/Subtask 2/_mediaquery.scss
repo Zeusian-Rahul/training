@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1200px) {
+    .container{
+        margin-top: 2%;
+        display: grid;
+        grid-template-columns:1fr;
+        grid-gap: 4%;
+    }
+    .footer > p{
+        margin-top: 20%;
+        color: rgb(1, 106, 62);
+        font-size: 14px;
+    }
+    .nav-item{
+        display: none;
+    }
+    .toggle{
+        display: unset;
+    }
+    .topnav{
+        display: flex;
+        width: 300px;
+    }
+   
+  }
+
+ @media only screen and (min-width:1200px)
+ {
+    .toggle{
+         display: none;
+    }
+
+ }
+ 
