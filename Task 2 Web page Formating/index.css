@@ -42,4 +42,6 @@ textarea{
     overflow-y: scroll;
     height: 150px;
     resize: none;
+    margin-top: 2px;
 }  
+

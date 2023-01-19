@@ -49,21 +49,12 @@ body {
   display: flex;
   align-items: center;
   margin-right: 10%;
-  padding-left: 8%;
   padding-bottom: 2%;
-  background-image: url("../icons/radio-button-on.svg");
+  width: 100%;
   background-repeat: no-repeat;
 }
-
-.school {
-  display: flex;
-  align-items: center;
-  margin-right: 10%;
-  width: 60%;
-  padding-left: 8%;
-  padding-bottom: 2%;
-  background-image: url("../icons/radio-button-off.svg");
-  background-repeat: no-repeat;
+.district input {
+  margin-right: 2px;
 }
 
 .select {
@@ -73,7 +64,7 @@ body {
   height: 90px;
   text-align: left;
 }
-.select p {
+.select label {
   color: rgb(122, 140, 140);
   margin: 0% 0%;
 }
@@ -110,12 +101,8 @@ select, a {
 .end {
   /* border: 2px solid red; */
   display: flex;
-  padding-left: 8%;
-  background-image: url("../icons/checkbox-checked.svg");
+  padding-left: 0%;
   background-repeat: no-repeat;
-}
-.end p {
-  margin-top: 0;
 }
 
 ::-moz-placeholder {
@@ -133,7 +120,7 @@ select, a {
   font-weight: bold;
 }
 
-button {
+.button {
   background-color: rgb(8, 222, 133);
   width: 40%;
   padding: 2% 30% 2% 20%;

@@ -65,26 +65,27 @@
              </table>
             <h3>Some random form</h3>
             <p><span><b> Note:</b></span> It looks the part but won't do a anything</p>
-                <p>Name:</p>
-                <input type="text" name="name" id="name" placeholder="Your name">
-            
-            
-            <p>Comments:</p>
+
+
+            <form action="" onsubmit="validateForm()">
+            <label >Name:</label>
+            <br>
+            <input type="text" name="name" id="name" placeholder="Your name">
+            <br>
+            <label>Comments:</label>
+            <br>
             <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Your comments"></textarea>
-            <p>Are you:</p>
-            <p>
+            <br>
+            <label>Are you:</label>
+            <br>
                 <input type="radio" name="gender" id="" value="Male">
                 <label for="html">Male</label>
-            </p>
-            <p>
+                <br>
                 <input type="radio" name="gender" id="" value="Female">
                 <label for="html">Female</label>
-            </p>
-            <form action="" onsubmit="validateForm()">
+                <br>
                 <input type="submit" value="Submit Query" >
-            </form>
-                
-            
+            </form>         
         </div>
     </div>
 </body>

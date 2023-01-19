@@ -10,6 +10,7 @@
     />
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
+    <script src="index.js"></script>
   </head>
   <body>
     <div class="main">
@@ -23,20 +24,21 @@
             <h2>Log in with Quantum</h2>
           </div>
           <div class="rb">
+
+            <form  onsubmit="Login()">
             <div class="district">
               <!-- <img src="../icons/radio-button-on.svg" alt="rbon"> -->
-
+              <input type="radio" name="selection"  value="District" checked="chewqcked">
               <label for="html">District</label>
-            </div>
-            <div class="school">
+              <input type="radio" name="selection"  value="School">
               <label for="css">Independent school</label>
             </div>
           </div>
 
           <div class="select">
-            <p>State*</p>
+            <label>State*</label>
             <div class="use">
-              <select name="cars" class="use">
+              <select name="state" class="use">
                 <option value="Alabama">Alabama</option>
                 <option value="Gujarat">Gujarat</option>
                 <option value="Maharashtra">Maharashtra</option>
@@ -44,25 +46,29 @@
             </div>
           </div>
           <div class="select">
-            <p>District*</p>
-            <select name="cars" class="use">
-              <option value="Alabama">Alabama School District</option>
-              <option value="Gujarat">Gujarat SD</option>
-              <option value="Maharashtra">Goa SD</option>
-              <option value="Maharashtra">Maha SD</option>
-              <option value="Maharashtra">Delhi SD</option>
+            <label>District*</label>
+            <select name="district" class="use">
+              <option value="Alabama SD">Alabama School District</option>
+              <option value="Gujarat SD">Gujarat SD</option>
+              <option value="Goa SD">Goa SD</option>
+              <option value="Maharashtra SD">Maha SD</option>
+              <option value="Delhi SD">Delhi SD</option>
             </select>
           </div>
 
-          <input class="use" type="text" placeholder="Username/Email ID*" />
+          <input class="use" type="text"   name="username" placeholder="Username/Email ID*" />
           <a><p class="forget">FORGET USERNAME?</p></a>
-          <input class="use password" type="password" placeholder="Password*" />
+          <input class="use password" type="password" placeholder="Password*" 
+          name="password"/>
           <a><p class="forget">FORGET PASSWORD?</p></a>
 
           <div class="end">
-            <p>Remember Me</p>
+            <input type="checkbox" name="remember" id="checkbox" onclick="Onclick()">
+            <label>Remember Me</label>
           </div>
-          <button type="button">LOGIN</button>
+          <input class="button" type="submit" value="LOGIN"></input>
+          </form>
+
         </div>
       </div>
     </div>
