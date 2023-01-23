@@ -216,6 +216,10 @@ select {
   border-top: 2px solid #e4e0e0;
 }
 
+.fade {
+  opacity: 0.5;
+}
+
 @media only screen and (max-width: 1200px) {
   .container {
     margin-top: 2%;
