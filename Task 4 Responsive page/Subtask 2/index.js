@@ -1,8 +1,4 @@
-//  fetch('./index.json')
-//  .then(res=>res.json())
-//  .then(data=>{
-//     console.log(data)
-// });
+
  const task= async()=>{
     const response=await fetch('./index.json');
     const data= await response.json();
@@ -29,7 +25,7 @@
             ${Students===null?'':`<p>${Students} Students<span>&nbsp&nbsp&nbsp${Date!==""?'|':''}&nbsp&nbsp&nbsp</span>${Date}</p>`}
         </div>
         <div class="favourite">
-        <img src="${Star}" alt="">
+        <img src="${Star}" alt="" style="${i===3?"filter:grayscale(100%)":'' }" >
     </div>
 </div>
 <div class="cardbtns">
@@ -41,8 +37,11 @@
 </div>
     `;
     document.querySelector(".container").innerHTML+=pickup;
-    // console.log(pickup);
     }
 }
 
-task();
+task().then(()=>{
+    console.log("Fetching successful",);
+}).catch((err)=>{
+    console.log(err);
+});
