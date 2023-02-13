@@ -145,7 +145,7 @@ select {
   border-bottom: 2px solid black;
 }
 
-.container {
+.Container {
   margin-top: 2%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -249,7 +249,7 @@ select {
   }
 }
 .footer > p {
-  margin-top: 2%;
+  margin-top: 10%;
   color: rgb(1, 106, 62);
   font-size: 14px;
 }

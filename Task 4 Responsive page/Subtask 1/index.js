@@ -1,5 +1,6 @@
 let check=false;
-const Login=()=> {
+const Login=(event)=> {
+    event.preventDefault();
     let form=document.forms[0];
     let username=form.elements.username.value;
     let password=form.elements.password.value;
